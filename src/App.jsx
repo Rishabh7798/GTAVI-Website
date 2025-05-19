@@ -215,21 +215,35 @@ function App() {
                 </h1>
                 <h1 className="text-6xl">gta VI - May 2026</h1>
 
-                <div className="mt-10 flex justify-center items-center gap-4">
-                  <button className="bg-yellow-500 px-10 py-6 text-black hover:bg-yellow-400 text-2xl rounded">
+                {/* <div className="mt-10 flex justify-center items-center gap-4">
+                  <a href="/Resume.pdf" download>
+                    <button className="bg-black text-white border border-white px-10 py-6 text-2xl rounded transition-all duration-300 hover:bg-yellow-500 hover:text-black hover:border-transparent">
+                      Download Now
+                    </button>
+                  </a>
+                  <button className="bg-black text-white border border-white px-10 py-6 text-2xl rounded transition-all duration-300 hover:bg-yellow-500 hover:text-black hover:border-transparent">
                     Download Now
                   </button>
-                  {/* <a href="https://github.com/Rishabh7798" target="_blank" rel="noopener noreferrer">
+
+                  <a href="https://github.com/Rishabh7798" target="_blank" rel="noopener noreferrer">
                     <button className="px-6 py-3 bg-white text-black rounded-full font-bold hover:bg-gray-300 transition text-xl">
                       Created by Rishabh Giri
                     </button>
-                  </a> */}
-                  <button className="px-6 py-3 bg-white text-black rounded-full font-bold hover:bg-gray-300 transition text-xl">
-                      Created by Rishabh Giri
+                  </a>
+                  <button className="bg-black text-white border border-white px-6 py-3 rounded-full font-bold text-xl transition-all duration-300 hover:bg-white hover:text-black hover:border-transparent">
+                    Created by Rishabh Giri
+                  </button>
+                </div> */}
+{/*  */}
+                <div className="mt-10 flex justify-center items-center gap-4">
+                  <button className="bg-yellow-500 text-black border border-transparent px-10 py-6 text-2xl rounded transition-all duration-300 hover:bg-black hover:text-white hover:border-white">
+                    Download Now
+                  </button>
+                  <button className="bg-white text-black border border-transparent px-6 py-3 rounded-full font-bold text-xl transition-all duration-300 hover:bg-black hover:text-white hover:border-white">
+                    Created by Rishabh Giri
                   </button>
                 </div>
-
-
+{/*  */}
               </div>
             </div>
           </div>
